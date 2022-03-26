@@ -44,6 +44,7 @@ class ChatHeaderTableView: UITableViewHeaderFooterView {
     }()
     override init(reuseIdentifier: String?) {
         super.init(reuseIdentifier: reuseIdentifier)
+        
         configureContents()
     }
     
